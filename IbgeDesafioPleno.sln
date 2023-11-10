@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{049C701D-FC3E-4653-8492-D6D3FEDB81B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E6BC7ABE-967E-4863-997B-3D617C79D70C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IbgeDesafioPleno.Api", "src\IbgeDesafioPleno.Api\IbgeDesafioPleno.Api.csproj", "{2DDF9DD7-E71C-4657-872B-21B945AF9EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IbgeDesafioPleno.Domain", "src\IbgeDesafioPleno.Domain\IbgeDesafioPleno.Domain.csproj", "{692945E8-BBF2-4DFD-9275-C7A2852EF886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IbgeDesafioPleno.Infrastructure", "src\IbgeDesafioPleno.Infrastructure\IbgeDesafioPleno.Infrastructure.csproj", "{E9D20F2C-BE1F-4839-B80C-20CC4B46E2CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IbgeDesafioPleno.Application", "src\IbgeDesafioPleno.Application\IbgeDesafioPleno.Application.csproj", "{CF2E6272-EF64-4490-AB1F-67AF4D652634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DDF9DD7-E71C-4657-872B-21B945AF9EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDF9DD7-E71C-4657-872B-21B945AF9EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDF9DD7-E71C-4657-872B-21B945AF9EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDF9DD7-E71C-4657-872B-21B945AF9EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692945E8-BBF2-4DFD-9275-C7A2852EF886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692945E8-BBF2-4DFD-9275-C7A2852EF886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692945E8-BBF2-4DFD-9275-C7A2852EF886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692945E8-BBF2-4DFD-9275-C7A2852EF886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D20F2C-BE1F-4839-B80C-20CC4B46E2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D20F2C-BE1F-4839-B80C-20CC4B46E2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D20F2C-BE1F-4839-B80C-20CC4B46E2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D20F2C-BE1F-4839-B80C-20CC4B46E2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2E6272-EF64-4490-AB1F-67AF4D652634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2E6272-EF64-4490-AB1F-67AF4D652634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2E6272-EF64-4490-AB1F-67AF4D652634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2E6272-EF64-4490-AB1F-67AF4D652634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DDF9DD7-E71C-4657-872B-21B945AF9EBB} = {049C701D-FC3E-4653-8492-D6D3FEDB81B3}
+		{692945E8-BBF2-4DFD-9275-C7A2852EF886} = {049C701D-FC3E-4653-8492-D6D3FEDB81B3}
+		{E9D20F2C-BE1F-4839-B80C-20CC4B46E2CB} = {049C701D-FC3E-4653-8492-D6D3FEDB81B3}
+		{CF2E6272-EF64-4490-AB1F-67AF4D652634} = {049C701D-FC3E-4653-8492-D6D3FEDB81B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68020D0A-E0BE-4AD5-88D7-A732C91C90B4}
+	EndGlobalSection
+EndGlobal
