@@ -1,6 +1,6 @@
-﻿using BytenFoods.Domain.Helpers;
-using Flunt.Validations;
+﻿using Flunt.Validations;
 using IbgeDesafioPleno.Domain.Core;
+using IbgeDesafioPleno.Domain.Helper;
 
 namespace IbgeDesafioPleno.Domain.ValueObjects;
 

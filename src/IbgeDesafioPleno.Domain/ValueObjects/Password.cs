@@ -1,8 +1,8 @@
-﻿using BytenFoods.Domain.Helpers;
-using Flunt.Validations;
+﻿using Flunt.Validations;
 using IbgeDesafioPleno.Domain.Core;
+using IbgeDesafioPleno.Domain.Helper;
 
-namespace BytenFoods.Domain.ValueObjects;
+namespace IbgeDesafioPleno.Domain.ValueObjects;
 
 public sealed class Password : ValueObject
 {
@@ -31,6 +31,6 @@ public sealed class Password : ValueObject
        && PasswordTyped.HasSpecialChar()
        && PasswordTyped.HasNumber();
 
-    public override string ToString() 
+    public override string ToString()
         => PasswordTyped;
 }

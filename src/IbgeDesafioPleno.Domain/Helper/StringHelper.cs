@@ -1,4 +1,4 @@
-﻿namespace BytenFoods.Domain.Helpers;
+﻿namespace IbgeDesafioPleno.Domain.Helper;
 
 public static class StringHelper
 {

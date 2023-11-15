@@ -1,5 +1,4 @@
-﻿using BytenFoods.Domain.ValueObjects;
-using IbgeDesafioPleno.Domain.Core;
+﻿using IbgeDesafioPleno.Domain.Core;
 using IbgeDesafioPleno.Domain.ValueObjects;
 
 namespace IbgeDesafioPleno.Domain.Entities;
